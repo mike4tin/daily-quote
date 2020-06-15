@@ -1,3 +1,5 @@
+#TODO: Repeat for remaining pages nd consider doing the same for the inspirational quotes as well
+
 import requests
 import re
 from bs4 import BeautifulSoup
