@@ -1,4 +1,4 @@
-#TODO: Repeat for remaining pages nd consider doing the same for the inspirational quotes as well
+#TODO: Repeat for remaining pages and consider doing the same for the inspirational quotes as well
 
 import requests
 from bs4 import BeautifulSoup
