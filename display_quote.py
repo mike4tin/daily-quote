@@ -32,9 +32,13 @@ if quote[-1] == ".":
 output_string = quote + " - " + author
 #print(output_string)
 
+
+
 root = tk.Tk()
-T = tk.Text(root, height=10, width=400)
+T = tk.Text(root, height=30, width=150)
+T.tag_configure("center", justify="center")
 T.pack()
-T.insert(tk.END, output_string)
+T.insert("2.0", output_string)
+T.tag_add("center", "1.0", "end")
 tk.mainloop()
 
