@@ -27,4 +27,14 @@ author = quotes[random_number][1]
 
 if quote[-1] == ".":
     quote = quote[:-1]
-print(quote + " - " + author)
+
+#Create the output string
+output_string = quote + " - " + author
+#print(output_string)
+
+root = tk.Tk()
+T = tk.Text(root, height=10, width=400)
+T.pack()
+T.insert(tk.END, output_string)
+tk.mainloop()
+
